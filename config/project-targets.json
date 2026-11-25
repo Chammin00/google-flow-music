@@ -1,0 +1,130 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-11-24T16:35:00-06:00",
+  "hubRoot": "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music",
+  "targets": {
+    "youtube_channels": {
+      "name": "YouTube 3D Highlight Studio & Channels",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\youtube channels\\assets\\licensed\\music\\flow_music",
+      "format": "mp3",
+      "bitrate": "320k",
+      "sampleRate": 44100,
+      "targetLufs": -14.0,
+      "includeStems": false,
+      "postSyncScript": "G:\\My Drive\\Antigravity\\Projects\\youtube channels\\Build-AudioManifest.ps1",
+      "description": "Monetization-safe original BGM registered directly into audio_manifest.json for Highlight Studio & YouTube uploads."
+    },
+    "youtube_remaster": {
+      "name": "YouTube Shorts Gaming Remaster Vault",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\exports\\youtube_remaster",
+      "format": "mp3",
+      "bitrate": "320k",
+      "sampleRate": 44100,
+      "targetLufs": -14.0,
+      "includeStems": false,
+      "description": "High-taste 90s neo-soul, jazz fusion, and anime beats indexed by Get-RemasterAudioTracks.ps1 for Invoke-VideoAudioRemaster.ps1."
+    },
+    "dead_channel_13": {
+      "name": "DEAD CHANNEL 13 (Google Flow Movies)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\audio\\flow_music",
+      "format": "wav",
+      "sampleRate": 48000,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "description": "48 kHz broadcast WAV masters and 4-stem splits for anime OP/ED, fight cues, and dialogue-ducked episode mixes."
+    },
+    "shadow_blade_ue5": {
+      "name": "Shadow Blade Tekken Naraka (UE5)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\game studio\\ShadowBlade_Tekken_Naraka_UE5\\Content\\Audio\\FlowMusic",
+      "format": "wav",
+      "sampleRate": 48000,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "engine": "Unreal",
+      "description": "48 kHz uncompressed WAV masters and synced stems for Unreal Engine 5 MetaSounds / SoundCue vertical remixing."
+    },
+    "paper_mario_unity": {
+      "name": "Paper Mario Expedition 33 (Unity 6)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\game studio\\PaperMario_Expedition33_Unity\\Assets\\Audio\\FlowMusic",
+      "format": "wav",
+      "sampleRate": 44100,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "engine": "Unity",
+      "description": "44.1 kHz WAV stems synced for Unity AdaptiveFlowMusicController AudioSettings.dspTime playback."
+    },
+    "chess_clash_godot": {
+      "name": "Chess Clash (Godot 4)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\game studio\\ChessClash_Godot\\assets\\audio\\flow_music",
+      "format": "ogg",
+      "sampleRate": 48000,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "engine": "Godot",
+      "description": "48 kHz Vorbis OGG aligned stems for Godot 4 AudioStreamSynchronized adaptive states."
+    },
+    "shattered_pagoda_godot": {
+      "name": "Shattered Pagoda (Godot 4)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\game studio\\ShatteredPagoda_Godot\\assets\\audio\\flow_music",
+      "format": "ogg",
+      "sampleRate": 48000,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "engine": "Godot",
+      "description": "48 kHz Vorbis OGG aligned stems for Godot 4 combat/exploration stem crossfading."
+    },
+    "turbo_type_godot": {
+      "name": "Turbo Type Rally (Godot 4)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\game studio\\TurboTypeRally_Godot\\assets\\audio\\flow_music",
+      "format": "ogg",
+      "sampleRate": 48000,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "engine": "Godot",
+      "description": "48 kHz Vorbis OGG stems that layer percussion and leads as WPM streak increases."
+    },
+    "mobile_game": {
+      "name": "Mobile Games (Expo / React Native)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\mobile game\\assets\\audio\\flow_music",
+      "format": "mp3",
+      "bitrate": "256k",
+      "sampleRate": 44100,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "engine": "Web",
+      "description": "Compact 256k MP3 masters and stems for Warriors and Gwent mobile game modes."
+    },
+    "first_grade_learning": {
+      "name": "1st Grade Learning & Turbo Type Web",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\1st grade learning\\assets\\audio\\flow_music",
+      "format": "mp3",
+      "bitrate": "192k",
+      "sampleRate": 44100,
+      "targetLufs": -16.0,
+      "includeStems": true,
+      "engine": "Web",
+      "description": "Streak-reactive Web Audio stems for typing and learning mini-games."
+    },
+    "my_planetarium": {
+      "name": "My Planetarium 3D WebGL",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\My Planetarium\\assets\\audio\\flow_music",
+      "format": "ogg",
+      "sampleRate": 44100,
+      "targetLufs": -18.0,
+      "includeStems": false,
+      "engine": "Web",
+      "description": "Atmospheric cosmic OGG soundscapes normalized to -18 LUFS for WebGL starfield viewing."
+    },
+    "aac": {
+      "name": "AAC Read-For-Me Assistive App",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\AAC\\public\\audio\\flow_music",
+      "format": "mp3",
+      "bitrate": "192k",
+      "sampleRate": 44100,
+      "targetLufs": -18.0,
+      "includeStems": false,
+      "engine": "Web",
+      "description": "Gentle non-distracting background ambience and reward cues for AAC assistive web app."
+    }
+  }
+}

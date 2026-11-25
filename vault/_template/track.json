@@ -1,0 +1,31 @@
+{
+  "slug": "example-track-slug",
+  "title": "Example Track Title",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 120,
+  "key": "C minor",
+  "timeSignature": "4/4",
+  "moods": [
+    "energetic",
+    "cinematic"
+  ],
+  "genre": "90s Anime Jazz-Rock",
+  "instrumental": false,
+  "loopable": false,
+  "licenseTier": "Original Creator Track (Flow Music)",
+  "synthIdVerified": true,
+  "flowSessionUrl": "",
+  "targets": [
+    "youtube_channels",
+    "youtube_remaster"
+  ],
+  "masterFile": "master.wav",
+  "stems": {
+    "drums": "stems/drums.wav",
+    "bass": "stems/bass.wav",
+    "instruments": "stems/instruments.wav",
+    "vocals": "stems/vocals.wav"
+  },
+  "cueNotes": "Add timing, loop points, or Flow Music Extend/Replace iteration notes here.",
+  "createdAt": "2026-11-24T16:35:00-06:00"
+}

@@ -1,0 +1,34 @@
+# Large Audio / Video Media & Stems (stored locally or synced to target projects)
+inbox/*
+!inbox/.gitkeep
+exports/*
+!exports/.gitkeep
+vault/*/*.wav
+vault/*/*.mp3
+vault/*/*.ogg
+vault/*/*.flac
+vault/*/stems/
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.part
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Logs & Temporary
+*.log
+*.tmp
+
+# System & Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

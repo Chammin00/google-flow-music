@@ -1,0 +1,54 @@
+{
+  "project": "Dead Channel 13 - Rain on the Glass",
+  "sourceShotsFile": "G:\\My Drive\\Antigravity\\Projects\\Google Flow- Movies\\dead-channel-13\\shots.json",
+  "defaultTrackSlug": "dc13-cue-zero-beat-protocol",
+  "totalDurationSec": 32.0,
+  "bpm": 132,
+  "cues": [
+    {
+      "cutId": "cut_01",
+      "title": "Catwalk Rainwater Kick & Boxing Exchange",
+      "startSec": 0.0,
+      "endSec": 6.0,
+      "scoreGainDb": -2.0,
+      "activeStems": ["drums", "bass", "instruments"],
+      "notes": "Tight boxing pocket and acid-jazz groove riding beneath skylight rain and elbow parries."
+    },
+    {
+      "cutId": "cut_02",
+      "title": "Zero Beat: Frozen Raindrops & CRT Crash",
+      "startSec": 6.0,
+      "endSec": 12.0,
+      "scoreGainDb": -6.5,
+      "activeStems": ["bass"],
+      "notes": "Sudden vacuum drop on Masato finger snap; leave headroom for sub-bass thump and crashing CRT glass."
+    },
+    {
+      "cutId": "cut_03",
+      "title": "13-Second Phase-Tape Micro-Rewind",
+      "startSec": 12.0,
+      "endSec": 18.0,
+      "scoreGainDb": -3.5,
+      "activeStems": ["bass", "instruments"],
+      "notes": "Nixie 13.000s rewind urgency; keep dialogue-range vocals stem ducked so Toma and Sora headset lines cut cleanly."
+    },
+    {
+      "cutId": "cut_04",
+      "title": "Pulse-Shot & Dead-Fire Stained-Glass Clash",
+      "startSec": 18.0,
+      "endSec": 26.0,
+      "scoreGainDb": 0.0,
+      "activeStems": ["drums", "bass", "instruments"],
+      "notes": "Full sakuga horn/slap-bass climax across the 8-second three-way clash and skylight shatter."
+    },
+    {
+      "cutId": "cut_05",
+      "title": "Noir Aftermath on the Wet Steel Grate",
+      "startSec": 26.0,
+      "endSec": 32.0,
+      "scoreGainDb": -4.0,
+      "activeStems": ["instruments", "bass"],
+      "notes": "Muted noir brass and wet Rhodes fade as rain resumes over stained-glass shards."
+    }
+  ]
+}
