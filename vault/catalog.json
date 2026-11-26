@@ -1,6 +1,616 @@
 {
-  "generated": "2026-11-24T16:35:00-06:00",
-  "vaultRoot": "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault",
-  "trackCount": 0,
-  "tracks": []
+    "generated":  "2026-11-25T10:46:31-06:00",
+    "vaultRoot":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault",
+    "trackCount":  14,
+    "tracks":  [
+                   {
+                       "slug":  "chill01-champloo-canyon-pure",
+                       "title":  "Champloo Canyon - Pure Beat Edition (m-flo x Wild Canyon x Utada x Nujabes)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  98.0,
+                       "key":  "F major",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "neo-soul",
+                                     "boom-bap",
+                                     "90s-tokyo",
+                                     "instrumental"
+                                 ],
+                       "genre":  "Late-Night 90s Tokyo Rhodes \u0026 Boom-Bap Instrumental",
+                       "instrumental":  true,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill01-champloo-canyon-pure\\master.wav",
+                       "durationSec":  117.551,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill01-champloo-canyon-pure\\stems\\instruments.wav",
+                                                         "durationSec":  117.551,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  22569874
+                                                     }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill01-champloo-canyon-pure"
+                   },
+                   {
+                       "slug":  "chill02-midnight-tokyo-rain",
+                       "title":  "Midnight Tokyo Rain (Persona 5 x Hiroshi Suzuki x MISIA x Space Lion)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  75.0,
+                       "key":  "G minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "rainy",
+                                     "jazz-lounge",
+                                     "late-night",
+                                     "sax"
+                                 ],
+                       "genre":  "Rainy Cafe Acid Jazz, 70s Japanese Trombone \u0026 Tokyo R\u0026B Lounge",
+                       "instrumental":  true,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill02-midnight-tokyo-rain\\master.wav",
+                       "durationSec":  166.4,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill02-midnight-tokyo-rain\\stems\\instruments.wav",
+                                                         "durationSec":  166.4,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  31948878
+                                                     }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill02-midnight-tokyo-rain"
+                   },
+                   {
+                       "slug":  "chill03-shiki-no-midnight",
+                       "title":  "Shiki No Midnight (Shiki No Uta x Nujabes x m-flo)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  92.5,
+                       "key":  "Bb minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "soulful",
+                                     "vocal",
+                                     "late-night",
+                                     "lofi"
+                                 ],
+                       "genre":  "Smoky Midnight Tokyo Vocal Lo-Fi \u0026 R\u0026B",
+                       "instrumental":  false,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill03-shiki-no-midnight\\master.wav",
+                       "durationSec":  103.7838,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments",
+                                              "vocals"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill03-shiki-no-midnight\\stems\\instruments.wav",
+                                                         "durationSec":  103.7838,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  19926566
+                                                     },
+                                     "vocals":  {
+                                                    "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill03-shiki-no-midnight\\stems\\vocals.wav",
+                                                    "durationSec":  103.7838,
+                                                    "sampleRate":  48000,
+                                                    "channels":  2,
+                                                    "bytes":  19926566
+                                                }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\chill03-shiki-no-midnight"
+                   },
+                   {
+                       "slug":  "hit01-champloo-canyon",
+                       "title":  "Champloo Canyon (Samurai Champloo x m-flo x Wild Canyon x Nujabes)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  98,
+                       "key":  "F major",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "hip-hop",
+                                     "boom-bap",
+                                     "90s-tokyo",
+                                     "groove"
+                                 ],
+                       "genre":  "Golden-Era 90s Tokyo Boom-Bap Jazz Rap",
+                       "instrumental":  false,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit01-champloo-canyon\\master.wav",
+                       "durationSec":  97.9592,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments",
+                                              "vocals"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit01-champloo-canyon\\stems\\instruments.wav",
+                                                         "durationSec":  97.9592,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  18808242
+                                                     },
+                                     "vocals":  {
+                                                    "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit01-champloo-canyon\\stems\\vocals.wav",
+                                                    "durationSec":  97.9592,
+                                                    "sampleRate":  48000,
+                                                    "channels":  2,
+                                                    "bytes":  18808242
+                                                }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit01-champloo-canyon"
+                   },
+                   {
+                       "slug":  "hit02-lost-in-studiopolis",
+                       "title":  "Lost in Studiopolis (JJK Lost in Paradise x Sonic Mania x Lupin III)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  122,
+                       "key":  "A minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "hype",
+                                     "funk",
+                                     "disco",
+                                     "shibuya",
+                                     "upbeat"
+                                 ],
+                       "genre":  "Neon Shibuya Funk-Disco \u0026 Heist Brass",
+                       "instrumental":  false,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit02-lost-in-studiopolis\\master.wav",
+                       "durationSec":  78.6885,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments",
+                                              "vocals"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit02-lost-in-studiopolis\\stems\\instruments.wav",
+                                                         "durationSec":  78.6885,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  15108274
+                                                     },
+                                     "vocals":  {
+                                                    "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit02-lost-in-studiopolis\\stems\\vocals.wav",
+                                                    "durationSec":  78.6885,
+                                                    "sampleRate":  48000,
+                                                    "channels":  2,
+                                                    "bytes":  15108274
+                                                }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit02-lost-in-studiopolis"
+                   },
+                   {
+                       "slug":  "hit03-conan-will-change",
+                       "title":  "Conan Will Change Your Life (Persona 5 x Detective Conan x Mondo Grosso)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  132,
+                       "key":  "F minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "hype",
+                                     "acid-jazz",
+                                     "heist",
+                                     "sax",
+                                     "action"
+                                 ],
+                       "genre":  "Tokyo Acid-Jazz Anime Heist Anthem",
+                       "instrumental":  false,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit03-conan-will-change\\master.wav",
+                       "durationSec":  72.7273,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments",
+                                              "vocals"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit03-conan-will-change\\stems\\instruments.wav",
+                                                         "durationSec":  72.7273,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  13963714
+                                                     },
+                                     "vocals":  {
+                                                    "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit03-conan-will-change\\stems\\vocals.wav",
+                                                    "durationSec":  72.7273,
+                                                    "sampleRate":  48000,
+                                                    "channels":  2,
+                                                    "bytes":  13963714
+                                                }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\hit03-conan-will-change"
+                   },
+                   {
+                       "slug":  "rom01-palace-shorts-hook",
+                       "title":  "ROM Palace Shorts Hook (Wild Canyon Beat x Tatsuro Sparkle x m-flo)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  100.0,
+                       "key":  "F major",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "upbeat",
+                                     "stylish",
+                                     "city-pop",
+                                     "boom-bap",
+                                     "shorts-hook"
+                                 ],
+                       "genre":  "90s Tokyo Funk Boom-Bap \u0026 Arcade Crate-Dig (YouTube Shorts)",
+                       "instrumental":  true,
+                       "loopable":  true,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+                                       "rom_studio_3d"
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom01-palace-shorts-hook\\master.wav",
+                       "durationSec":  57.6,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom01-palace-shorts-hook\\stems\\instruments.wav",
+                                                         "durationSec":  57.6,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  11059278
+                                                     }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom01-palace-shorts-hook"
+                   },
+                   {
+                       "slug":  "rom02-velvet-palace-longform",
+                       "title":  "Velvet Palace Rotunda (Beneath the Mask x Hiroshi Romance x DKC Aquatic)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  75.0,
+                       "key":  "D minor / A minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "late-night",
+                                     "rainy",
+                                     "jazz-lounge",
+                                     "commentary-bed"
+                                 ],
+                       "genre":  "Art Deco Rainy Acid-Jazz, 70s Trombone \u0026 Ambient Console Lounge",
+                       "instrumental":  true,
+                       "loopable":  true,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+                                       "rom_studio_3d"
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom02-velvet-palace-longform\\master.wav",
+                       "durationSec":  192,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom02-velvet-palace-longform\\stems\\instruments.wav",
+                                                         "durationSec":  192,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  36864078
+                                                     }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom02-velvet-palace-longform"
+                   },
+                   {
+                       "slug":  "rom03-console-vault-bgm",
+                       "title":  "Console Vault Lounge (MISIA Pocket x Carrington Institute x Snowboard Kids)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  80.0,
+                       "key":  "E minor / A minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "lounge",
+                                     "nostalgic",
+                                     "menu-bgm",
+                                     "n64",
+                                     "chill"
+                                 ],
+                       "genre":  "Late-90s Tokyo R\u0026B Pocket \u0026 N64 Cyber-Lounge Menu BGM",
+                       "instrumental":  true,
+                       "loopable":  true,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+                                       "rom_studio_3d"
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom03-console-vault-bgm\\master.wav",
+                       "durationSec":  120,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom03-console-vault-bgm\\stems\\instruments.wav",
+                                                         "durationSec":  120,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  23040078
+                                                     }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\rom03-console-vault-bgm"
+                   },
+                   {
+                       "slug":  "sonic23-bebop-fusion",
+                       "title":  "Chemical Ice Bebop (Sonic 2 x Sonic 3 x Cowboy Bebop Fusion)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  138,
+                       "key":  "G minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "hype",
+                                     "jazz-funk",
+                                     "16-bit-retro",
+                                     "anime-noir",
+                                     "fusion"
+                                 ],
+                       "genre":  "16-Bit Mega Drive Funk x 90s Big-Band Anime Jazz Fusion",
+                       "instrumental":  true,
+                       "loopable":  true,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\sonic23-bebop-fusion\\master.wav",
+                       "durationSec":  87.7072,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "drums",
+                                              "bass",
+                                              "instruments",
+                                              "vocals"
+                                          ],
+                       "stems":  {
+                                     "drums":  {
+                                                   "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\sonic23-bebop-fusion\\stems\\drums.wav",
+                                                   "durationSec":  87.7072,
+                                                   "sampleRate":  48000,
+                                                   "channels":  2,
+                                                   "bytes":  16839862
+                                               },
+                                     "bass":  {
+                                                  "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\sonic23-bebop-fusion\\stems\\bass.wav",
+                                                  "durationSec":  87.7072,
+                                                  "sampleRate":  48000,
+                                                  "channels":  2,
+                                                  "bytes":  16839862
+                                              },
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\sonic23-bebop-fusion\\stems\\instruments.wav",
+                                                         "durationSec":  87.7072,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  16839862
+                                                     },
+                                     "vocals":  {
+                                                    "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\sonic23-bebop-fusion\\stems\\vocals.wav",
+                                                    "durationSec":  87.7072,
+                                                    "sampleRate":  48000,
+                                                    "channels":  2,
+                                                    "bytes":  16839862
+                                                }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\sonic23-bebop-fusion"
+                   },
+                   {
+                       "slug":  "yyh01-sunset-credits-suite",
+                       "title":  "Yu Yu Hakusho Sunset Credits Suite (Connected 124 BPM 4-Stem DJ Blend)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  124.0,
+                       "key":  "D minor -\u003e G minor -\u003e Bb major / F minor -\u003e G major",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "nostalgic",
+                                     "sunset",
+                                     "city-pop",
+                                     "anime-credits",
+                                     "chill",
+                                     "dj-blend"
+                                 ],
+                       "genre":  "90s Anime Sunset Credits Continuous 4-Stem DJ Blend",
+                       "instrumental":  false,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+                                       "dead_channel_13"
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh01-sunset-credits-suite\\master.wav",
+                       "durationSec":  286.3737,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh01-sunset-credits-suite\\stems\\instruments.wav",
+                                                         "durationSec":  286.3737,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  54983822
+                                                     }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh01-sunset-credits-suite"
+                   },
+                   {
+                       "slug":  "yyh02-spirit-detective-chill",
+                       "title":  "Spirit Detective Midnight Chill (Struggle of Sadness x MISIA x Zelda Chill)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  82.0,
+                       "key":  "G major",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "late-night",
+                                     "emotional",
+                                     "rnb",
+                                     "instrumental"
+                                 ],
+                       "genre":  "Late-Night 90s Anime Ballad \u0026 Tokyo R\u0026B Instrumental",
+                       "instrumental":  true,
+                       "loopable":  false,
+                       "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+                       "synthIdVerified":  false,
+                       "targets":  [
+                                       "dead_channel_13"
+                                   ],
+                       "hasMaster":  true,
+                       "masterPath":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh02-spirit-detective-chill\\master.wav",
+                       "durationSec":  117.0732,
+                       "sampleRate":  48000,
+                       "availableStems":  [
+                                              "instruments"
+                                          ],
+                       "stems":  {
+                                     "instruments":  {
+                                                         "path":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh02-spirit-detective-chill\\stems\\instruments.wav",
+                                                         "durationSec":  117.0732,
+                                                         "sampleRate":  48000,
+                                                         "channels":  2,
+                                                         "bytes":  22478126
+                                                     }
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh02-spirit-detective-chill"
+                   },
+                   {
+                       "slug":  "yyh-dandadan-chill-instrumental",
+                       "title":  "SPIRIT DETECTIVE BOUNCE (Monetization-Safe Beat)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  112,
+                       "key":  "D minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "groove",
+                                     "bouncy",
+                                     "city-pop",
+                                     "instrumental"
+                                 ],
+                       "genre":  "Anime Sunset Synth-Jazz x Bouncy Lo-Fi Groove",
+                       "instrumental":  true,
+                       "loopable":  true,
+                       "licenseTier":  "Original Creator Track (Flow Music)",
+                       "synthIdVerified":  true,
+                       "targets":  [
+                                       "youtube_channels",
+                                       "youtube_remaster",
+                                       "shattered_pagoda_godot"
+                                   ],
+                       "hasMaster":  false,
+                       "masterPath":  null,
+                       "durationSec":  0,
+                       "sampleRate":  null,
+                       "availableStems":  [
+
+                                          ],
+                       "stems":  {
+
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh-dandadan-chill-instrumental"
+                   },
+                   {
+                       "slug":  "yyh-dandadan-occult-sunset",
+                       "title":  "SPIRIT FREQUENCY (Sunset Bounce)",
+                       "artist":  "Chase (@chaseham00) / Google Flow Music",
+                       "bpm":  114,
+                       "key":  "D minor",
+                       "timeSignature":  "4/4",
+                       "moods":  [
+                                     "chill",
+                                     "bouncy",
+                                     "nostalgic",
+                                     "occult",
+                                     "groove"
+                                 ],
+                       "genre":  "90s Anime Sunset City-Pop x Modern Occult Hip-Hop Bounce",
+                       "instrumental":  false,
+                       "loopable":  false,
+                       "licenseTier":  "Original Creator Track (Flow Music)",
+                       "synthIdVerified":  true,
+                       "targets":  [
+                                       "youtube_channels",
+                                       "youtube_remaster",
+                                       "dead_channel_13"
+                                   ],
+                       "hasMaster":  false,
+                       "masterPath":  null,
+                       "durationSec":  0,
+                       "sampleRate":  null,
+                       "availableStems":  [
+
+                                          ],
+                       "stems":  {
+
+                                 },
+                       "trackDir":  "G:\\My Drive\\Antigravity\\Projects\\Google Flow-music\\vault\\yyh-dandadan-occult-sunset"
+                   }
+               ]
 }

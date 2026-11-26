@@ -1,0 +1,30 @@
+{
+  "slug": "yyh02-spirit-detective-chill",
+  "title": "Spirit Detective Midnight Chill (Struggle of Sadness x MISIA x Zelda Chill)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 82.0,
+  "key": "G major",
+  "timeSignature": "4/4",
+  "moods": [
+    "chill",
+    "late-night",
+    "emotional",
+    "rnb",
+    "instrumental"
+  ],
+  "genre": "Late-Night 90s Anime Ballad & Tokyo R&B Instrumental",
+  "instrumental": true,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [
+    "dead_channel_13"
+  ],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav"
+  },
+  "cueNotes": "Pure instrumental 40-bar midnight chill journey at 82 BPM: YYH Struggle of Sadness (12 bars) -> MISIA Inst (12 bars) -> Zelda Fairy Chill (8 bars) -> YYH Reprise (8 bars).",
+  "createdAt": "2026-11-25T01:28:44-06:00"
+}

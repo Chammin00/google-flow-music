@@ -1,0 +1,28 @@
+{
+  "slug": "chill01-champloo-canyon-pure",
+  "title": "Champloo Canyon - Pure Beat Edition (m-flo x Wild Canyon x Utada x Nujabes)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 98.0,
+  "key": "F major",
+  "timeSignature": "4/4",
+  "moods": [
+    "chill",
+    "neo-soul",
+    "boom-bap",
+    "90s-tokyo",
+    "instrumental"
+  ],
+  "genre": "Late-Night 90s Tokyo Rhodes & Boom-Bap Instrumental",
+  "instrumental": true,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav"
+  },
+  "cueNotes": "Pure unducked instrumental sequence: 16 bars m-flo -> 16 bars Wild Canyon (no vocals) -> 8 bars Utada Automatic -> 8 bars Nujabes Aruarian Dance.",
+  "createdAt": "2026-11-25T01:16:14-06:00"
+}

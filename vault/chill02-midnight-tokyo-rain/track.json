@@ -1,0 +1,28 @@
+{
+  "slug": "chill02-midnight-tokyo-rain",
+  "title": "Midnight Tokyo Rain (Persona 5 x Hiroshi Suzuki x MISIA x Space Lion)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 75.0,
+  "key": "G minor",
+  "timeSignature": "4/4",
+  "moods": [
+    "chill",
+    "rainy",
+    "jazz-lounge",
+    "late-night",
+    "sax"
+  ],
+  "genre": "Rainy Cafe Acid Jazz, 70s Japanese Trombone & Tokyo R&B Lounge",
+  "instrumental": true,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav"
+  },
+  "cueNotes": "Organic 52-bar rainy Tokyo jazz-lounge journey at 75 BPM in G minor: 12 bars P5 Beneath the Mask -> 12 bars Hiroshi Suzuki Romance -> 12 bars MISIA Inst (-2 st) -> 8 bars P5 Reprise -> 8 bars Space Lion sax epilogue.",
+  "createdAt": "2026-11-25T01:33:35-06:00"
+}

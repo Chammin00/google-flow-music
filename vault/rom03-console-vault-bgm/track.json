@@ -1,0 +1,31 @@
+{
+  "slug": "rom03-console-vault-bgm",
+  "title": "Console Vault Lounge (MISIA Pocket x Carrington Institute x Snowboard Kids)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 80.0,
+  "key": "E minor / A minor",
+  "timeSignature": "4/4",
+  "moods": [
+    "lounge",
+    "nostalgic",
+    "menu-bgm",
+    "n64",
+    "chill"
+  ],
+  "genre": "Late-90s Tokyo R&B Pocket & N64 Cyber-Lounge Menu BGM",
+  "instrumental": true,
+  "loopable": true,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [
+    "rom_studio_3d"
+  ],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav",
+    "drums_bass": "stems/drums_bass.wav"
+  },
+  "cueNotes": "Unbroken MISIA 80.00 BPM R&B drums+bass spine (40 bars = 120.00s / 2:00, circular loop): Bars 1-8 (0:00-0:24) MISIA Rhodes + soft Carrington lobby pads -> Bars 9-20 (0:24-1:00) Carrington N64 synth lead -> Bars 21-32 (1:00-1:36) Snowboard Kids playful keys -> Bars 33-40 (1:36-2:00) MISIA + Carrington pads return into Bar 1 loop.",
+  "createdAt": "2026-11-25T02:35:28-06:00"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "chill03-shiki-no-midnight",
+  "title": "Shiki No Midnight (Shiki No Uta x Nujabes x m-flo)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 92.5,
+  "key": "Bb minor",
+  "timeSignature": "4/4",
+  "moods": [
+    "chill",
+    "soulful",
+    "vocal",
+    "late-night",
+    "lofi"
+  ],
+  "genre": "Smoky Midnight Tokyo Vocal Lo-Fi & R&B",
+  "instrumental": false,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav",
+    "vocals": "stems/vocals.wav"
+  },
+  "cueNotes": "4-bar Nujabes intro -> 32 bars MINMI Shiki No Uta vocals (+0 st, zero noise gate) gliding across Nujabes (12 bars) -> m-flo Rhodes (16 bars) -> Nujabes (4 bars) -> 4-bar acoustic outro.",
+  "createdAt": "2026-11-25T01:20:56-06:00"
+}

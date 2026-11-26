@@ -1,0 +1,29 @@
+{
+  "slug": "hit03-conan-will-change",
+  "title": "Conan Will Change Your Life (Persona 5 x Detective Conan x Mondo Grosso)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 132,
+  "key": "F minor",
+  "timeSignature": "4/4",
+  "moods": [
+    "hype",
+    "acid-jazz",
+    "heist",
+    "sax",
+    "action"
+  ],
+  "genre": "Tokyo Acid-Jazz Anime Heist Anthem",
+  "instrumental": false,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav",
+    "vocals": "stems/vocals.wav"
+  },
+  "cueNotes": "4-bar Detective Conan sax intro -> 32 bars Lyn Life Will Change vocals across Conan Main Theme (12 bars) -> Mondo Grosso Acid Jazz (16 bars) -> Conan climax (4 bars) -> 4-bar sax outro.",
+  "createdAt": "2026-11-25T00:56:51-06:00"
+}

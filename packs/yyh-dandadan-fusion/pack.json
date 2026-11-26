@@ -1,0 +1,37 @@
+{
+  "packId": "yyh-dandadan-fusion",
+  "name": "Yu Yu Hakusho EDs x Dandadan OP (Otonoke) Flow Music Pack",
+  "description": "2 original monetization-safe Flow Music briefs fusing 90s YYH ending-credits warmth with Dandadan Otonoke occult bounce.",
+  "tracks": [
+    {
+      "slug": "yyh-dandadan-occult-sunset",
+      "title": "SPIRIT FREQUENCY (Sunset Bounce)",
+      "genre": "90s Anime Sunset City-Pop x Modern Occult Hip-Hop Bounce",
+      "bpm": 114,
+      "key": "D minor",
+      "timeSignature": "4/4",
+      "moods": ["chill", "bouncy", "nostalgic", "occult", "groove"],
+      "targets": ["youtube_channels", "youtube_remaster", "dead_channel_13"],
+      "instrumental": false,
+      "loopable": false,
+      "cueNotes": "Fuses YYH Ending Credits warm Rhodes/sax sunset nostalgia with Dandadan Otonoke syncopated bounce bass and rhythmic vocal hooks.",
+      "prompt": "114 BPM in D minor. Fuses nostalgic 1993 Japanese anime ending credits warmth (glossy DX7 synth chimes, velvety Fender Rhodes seventh chords, smoky late-night tenor saxophone fills) with modern Tokyo occult hip-hop bounce (syncopated rubbery sub-bass, tight Jersey-club kick-snap pocket, crisp hi-hat triplets, and catchy rhythmic sung/rapped Japanese-English fusion vocals). Warm tape saturation, upbeat yet effortlessly chill sunset cruising mood.",
+      "lyrics": "[Intro]\n(Warm Rhodes sunset chords, vinyl hiss, syncopated rubbery bass pickup)\n\n[Verse 1]\nNeon twilight down the train-track street\nSpirit meter humming to a midnight beat\nGolden ghosts laughing in the rearview glass\nLeave the heavy static in the fading past\n\n[Pre-Chorus]\n(Snappy Jersey-club kick bounce builds)\nCatch the frequency, spin the dial around!\n\n[Chorus]\nRide the spirit wave on a sunset groove\nEvery hidden shadow starts to catch the move\nHomework never ends when the signal's bright\nDancing through the alley till the morning light!\n\n[Bridge]\n(Smoky tenor sax solo gliding over warm Rhodes + sub bounce)\n\n[Final Chorus]\nRide the spirit wave on a sunset groove\nNinety-three nostalgia with a brand-new move!\n\n[Outro]\n(Solo sax phrase + Rhodes fade)"
+    },
+    {
+      "slug": "yyh-dandadan-chill-instrumental",
+      "title": "SPIRIT DETECTIVE BOUNCE (Monetization-Safe Beat)",
+      "genre": "Anime Sunset Synth-Jazz x Bouncy Lo-Fi Groove",
+      "bpm": 112,
+      "key": "D minor",
+      "timeSignature": "4/4",
+      "moods": ["chill", "groove", "bouncy", "city-pop", "instrumental"],
+      "targets": ["youtube_channels", "youtube_remaster", "shattered_pagoda_godot"],
+      "instrumental": true,
+      "loopable": true,
+      "cueNotes": "Loopable instrumental companion designed for gameplay commentary ducking (-20 dB) and Shorts hooks.",
+      "prompt": "112 BPM in D minor, pure instrumental, seamless loop. Warm 90s anime ending-credits Fender Rhodes chords and nostalgic Stratocaster clean guitar accents locked onto a bouncy modern anime opening hip-hop pocket (tight punchy kick, crisp rimshot snap, agile melodic slap/synth bass, subtle playful vocal-like synth whistle hook). Zero lead vocals, wide midrange space for commentary, effortlessly chill and catchy.",
+      "lyrics": "[Instrumental]\nLoopable YYH sunset x Dandadan bounce instrumental."
+    }
+  ]
+}

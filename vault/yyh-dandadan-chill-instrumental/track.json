@@ -1,0 +1,35 @@
+{
+    "slug":  "yyh-dandadan-chill-instrumental",
+    "title":  "SPIRIT DETECTIVE BOUNCE (Monetization-Safe Beat)",
+    "artist":  "Chase (@chaseham00) / Google Flow Music",
+    "bpm":  112,
+    "key":  "D minor",
+    "timeSignature":  "4/4",
+    "moods":  [
+                  "chill",
+                  "groove",
+                  "bouncy",
+                  "city-pop",
+                  "instrumental"
+              ],
+    "genre":  "Anime Sunset Synth-Jazz x Bouncy Lo-Fi Groove",
+    "instrumental":  true,
+    "loopable":  true,
+    "licenseTier":  "Original Creator Track (Flow Music)",
+    "synthIdVerified":  true,
+    "flowSessionUrl":  "",
+    "targets":  [
+                    "youtube_channels",
+                    "youtube_remaster",
+                    "shattered_pagoda_godot"
+                ],
+    "masterFile":  "master.wav",
+    "stems":  {
+                  "drums":  "stems/drums.wav",
+                  "bass":  "stems/bass.wav",
+                  "instruments":  "stems/instruments.wav",
+                  "vocals":  "stems/vocals.wav"
+              },
+    "cueNotes":  "Loopable instrumental companion designed for gameplay commentary ducking (-20 dB) and Shorts hooks.",
+    "createdAt":  "2026-11-25T01:25:40-06:00"
+}

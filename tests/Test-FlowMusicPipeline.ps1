@@ -184,7 +184,7 @@ try {
     $initPackScript = Join-Path -Path $ScriptsDir -ChildPath 'Initialize-SoundtrackPack.ps1'
     $packRaw = (& $initPackScript -PackName all -VaultRoot $packVault -OutputJson) -join "`n"
     $packRes = $packRaw | ConvertFrom-Json
-    Assert-True -Condition ($packRes.Created -eq 18) -Message ("Expected 18 scaffolded tracks across 3 packs, got {0}" -f $packRes.Created)
+    Assert-True -Condition ($packRes.Created -eq 20) -Message ("Expected 20 scaffolded tracks across 4 packs, got {0}" -f $packRes.Created)
 
     Write-Host "ALL FLOW MUSIC PIPELINE E2E CHECKS PASSED!" -ForegroundColor Green
 }

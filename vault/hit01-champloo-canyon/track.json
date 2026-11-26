@@ -1,0 +1,29 @@
+{
+  "slug": "hit01-champloo-canyon",
+  "title": "Champloo Canyon (Samurai Champloo x m-flo x Wild Canyon x Nujabes)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 98,
+  "key": "F major",
+  "timeSignature": "4/4",
+  "moods": [
+    "chill",
+    "hip-hop",
+    "boom-bap",
+    "90s-tokyo",
+    "groove"
+  ],
+  "genre": "Golden-Era 90s Tokyo Boom-Bap Jazz Rap",
+  "instrumental": false,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav",
+    "vocals": "stems/vocals.wav"
+  },
+  "cueNotes": "4-bar m-flo intro -> 32 bars Shing02 Battlecry vocals gliding across m-flo (12 bars) + SA2 Wild Canyon instrumental (16 bars) + Nujabes acoustic transition (4 bars) -> 4-bar Nujabes outro.",
+  "createdAt": "2026-11-25T00:52:57-06:00"
+}

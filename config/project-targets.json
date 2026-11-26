@@ -125,6 +125,17 @@
       "includeStems": false,
       "engine": "Web",
       "description": "Gentle non-distracting background ambience and reward cues for AAC assistive web app."
+    },
+    "rom_studio_3d": {
+      "name": "3D ROM Studio (Grand ROM Palace)",
+      "path": "G:\\My Drive\\Antigravity\\Projects\\game mods\\assets\\sounds\\bgm",
+      "format": "mp3",
+      "bitrate": "320k",
+      "sampleRate": 48000,
+      "targetLufs": -14.5,
+      "includeStems": false,
+      "engine": "Web",
+      "description": "Circular-looped 320k MP3 zone BGM tracks consumed by rom_studio_audio.js (palace, vault, action zones)."
     }
   }
 }

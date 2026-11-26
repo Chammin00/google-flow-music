@@ -1,0 +1,35 @@
+{
+    "slug":  "yyh-dandadan-occult-sunset",
+    "title":  "SPIRIT FREQUENCY (Sunset Bounce)",
+    "artist":  "Chase (@chaseham00) / Google Flow Music",
+    "bpm":  114,
+    "key":  "D minor",
+    "timeSignature":  "4/4",
+    "moods":  [
+                  "chill",
+                  "bouncy",
+                  "nostalgic",
+                  "occult",
+                  "groove"
+              ],
+    "genre":  "90s Anime Sunset City-Pop x Modern Occult Hip-Hop Bounce",
+    "instrumental":  false,
+    "loopable":  false,
+    "licenseTier":  "Original Creator Track (Flow Music)",
+    "synthIdVerified":  true,
+    "flowSessionUrl":  "",
+    "targets":  [
+                    "youtube_channels",
+                    "youtube_remaster",
+                    "dead_channel_13"
+                ],
+    "masterFile":  "master.wav",
+    "stems":  {
+                  "drums":  "stems/drums.wav",
+                  "bass":  "stems/bass.wav",
+                  "instruments":  "stems/instruments.wav",
+                  "vocals":  "stems/vocals.wav"
+              },
+    "cueNotes":  "Fuses YYH Ending Credits warm Rhodes/sax sunset nostalgia with Dandadan Otonoke syncopated bounce bass and rhythmic vocal hooks.",
+    "createdAt":  "2026-11-25T01:25:39-06:00"
+}

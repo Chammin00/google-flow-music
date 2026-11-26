@@ -1,0 +1,33 @@
+{
+    "slug":  "sonic23-bebop-fusion",
+    "title":  "Chemical Ice Bebop (Sonic 2 x Sonic 3 x Cowboy Bebop Fusion)",
+    "artist":  "Chase (@chaseham00) / Google Flow Music",
+    "bpm":  138,
+    "key":  "G minor",
+    "timeSignature":  "4/4",
+    "moods":  [
+                  "hype",
+                  "jazz-funk",
+                  "16-bit-retro",
+                  "anime-noir",
+                  "fusion"
+              ],
+    "genre":  "16-Bit Mega Drive Funk x 90s Big-Band Anime Jazz Fusion",
+    "instrumental":  true,
+    "loopable":  true,
+    "licenseTier":  "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+    "synthIdVerified":  false,
+    "flowSessionUrl":  "",
+    "targets":  [
+
+                ],
+    "masterFile":  "master.wav",
+    "stems":  {
+                  "drums":  "stems/drums.wav",
+                  "bass":  "stems/bass.wav",
+                  "instruments":  "stems/instruments.wav",
+                  "vocals":  "stems/vocals.wav"
+              },
+    "cueNotes":  "Zero-overlay DJ-flow sequence (138 BPM, G minor): Part 1 Tank! intro + 8-bar brass -> eighth-note echo; Part 2 Sonic 2 Chemical Plant 8 bars -> 1-bar bass swap; Part 3 Sonic 3 IceCap 8-bar chorus -> echo; Part 4 Trading Twos (4x2 bars Tank/Chem/Ice/Tank); Part 5 Chemical Plant B-section (4 bars) -> Tank climax outro (4 bars).",
+    "createdAt":  "2026-11-24T23:59:58-06:00"
+}

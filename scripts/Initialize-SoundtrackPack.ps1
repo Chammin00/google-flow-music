@@ -10,7 +10,7 @@
 [CmdletBinding(SupportsShouldProcess = $true)]
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet('dead-channel-13', 'youtube-monetization-beats', 'game-studio-ost', 'all')]
+    [ValidateSet('dead-channel-13', 'youtube-monetization-beats', 'game-studio-ost', 'yyh-dandadan-fusion', 'all')]
     [string]$PackName,
 
     [Parameter(Mandatory = $false)]
@@ -44,7 +44,7 @@ if (-not (Test-Path -LiteralPath $newTrackScript)) {
 }
 
 $packsToRun = if ($PackName -eq 'all') {
-    @('dead-channel-13', 'youtube-monetization-beats', 'game-studio-ost')
+    @('dead-channel-13', 'youtube-monetization-beats', 'game-studio-ost', 'yyh-dandadan-fusion')
 } else {
     @($PackName)
 }

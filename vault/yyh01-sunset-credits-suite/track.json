@@ -1,0 +1,31 @@
+{
+  "slug": "yyh01-sunset-credits-suite",
+  "title": "Yu Yu Hakusho Sunset Credits Suite (Connected 124 BPM 4-Stem DJ Blend)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 124.0,
+  "key": "D minor -> G minor -> Bb major / F minor -> G major",
+  "timeSignature": "4/4",
+  "moods": [
+    "nostalgic",
+    "sunset",
+    "city-pop",
+    "anime-credits",
+    "chill",
+    "dj-blend"
+  ],
+  "genre": "90s Anime Sunset Credits Continuous 4-Stem DJ Blend",
+  "instrumental": false,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [
+    "dead_channel_13"
+  ],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav"
+  },
+  "cueNotes": "Continuously connected 124.00 BPM 4-stem DJ blend (0 st natural vocals) bookended by Struggle of Sadness: Overture (0.0s-16.59s) -> ED 3 Body (16.5s-86.178s) -> 8-Bar Stem-Weave Bridge #1 (86.178s-101.662s) -> ED 5 Body (101.662s-165.534s) -> 8-Bar Stem-Weave Bridge #2 (165.534s-181.018s) -> ED 1 Body (181.018s-252.632s) -> Bookend Finale (252.632s-286.374s).",
+  "createdAt": "2026-11-25T02:10:22-06:00"
+}

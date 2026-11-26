@@ -1,0 +1,29 @@
+{
+  "slug": "hit02-lost-in-studiopolis",
+  "title": "Lost in Studiopolis (JJK Lost in Paradise x Sonic Mania x Lupin III)",
+  "artist": "Chase (@chaseham00) / Google Flow Music",
+  "bpm": 122,
+  "key": "A minor",
+  "timeSignature": "4/4",
+  "moods": [
+    "hype",
+    "funk",
+    "disco",
+    "shibuya",
+    "upbeat"
+  ],
+  "genre": "Neon Shibuya Funk-Disco & Heist Brass",
+  "instrumental": false,
+  "loopable": false,
+  "licenseTier": "Personal Mashup Reference (Generate Original in Flow Music for Commercial Use)",
+  "synthIdVerified": false,
+  "flowSessionUrl": "",
+  "targets": [],
+  "masterFile": "master.wav",
+  "stems": {
+    "instruments": "stems/instruments.wav",
+    "vocals": "stems/vocals.wav"
+  },
+  "cueNotes": "4-bar Studiopolis synth-funk intro -> 32 bars ALI + AKLO Lost in Paradise vocals (-1 st -> A min) across Studiopolis (12 bars) -> Lupin III (+2 st -> A min, 16 bars) -> Studiopolis finale (4 bars) -> 4-bar outro.",
+  "createdAt": "2026-11-25T00:54:19-06:00"
+}

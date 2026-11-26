@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Flow Music — Audition &amp; Catalog Console</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <div class="console-shell">
+    <!-- Top Header Command Bar -->
+    <header class="topbar">
+      <div class="brand-group">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f0883e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13" />
+            <circle cx="6" cy="18" r="3" stroke="#58a6ff" />
+            <circle cx="18" cy="16" r="3" stroke="#58a6ff" />
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-title">Google Flow Music // Audition &amp; Deployment Console</h1>
+          <div class="brand-subtitle">exports/hits/ &bull; 48 kHz Mastering &amp; Circular Loop Deck &bull; invideo-timeline 24 fps</div>
+        </div>
+      </div>
+
+      <div class="topbar-telemetry">
+        <div class="status-pill"><span>Tracks</span><strong id="stat-track-count">--</strong></div>
+        <div class="status-pill"><span>Avg Loudness</span><strong id="stat-avg-lufs">-- LUFS</strong></div>
+        <div class="status-pill"><span class="status-dot" id="dot-rom"></span><span>3D ROM Studio</span><strong id="stat-rom-sync">--/3</strong></div>
+        <div class="status-pill"><span class="status-dot" id="dot-dc13"></span><span>Dead Channel 13</span><strong id="stat-dc13-sync">--/2</strong></div>
+      </div>
+
+      <div class="topbar-actions">
+        <button id="btn-rescan" class="btn" type="button" title="Re-probe exports/hits MP3s via FFprobe &amp; loudnorm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 4 23 10 17 10" />
+            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+          </svg>
+          <span>Rescan Catalog</span>
+        </button>
+        <button id="btn-sync-all" class="btn btn-primary" type="button" title="Run Sync-FlowMusicBridge.ps1 for 3D ROM Studio &amp; Dead Channel 13">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f0883e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="17 8 12 3 7 8" />
+            <line x1="12" y1="3" x2="12" y2="15" />
+          </svg>
+          <span>Sync All Projects</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Gapless Web Audio Audition Deck -->
+    <section class="audition-deck" aria-label="Master Web Audio Audition Deck">
+      <div class="deck-grid">
+        <div class="now-playing-meta">
+          <div class="now-playing-slug">
+            <span id="deck-slug">SELECT A TRACK</span>
+            <span id="deck-status-tag" class="tag">IDLE</span>
+          </div>
+          <div id="deck-title" class="now-playing-title">Click any track row to audition</div>
+          <div class="now-playing-badges">
+            <span id="deck-bpm" class="tag tag-amber">-- BPM</span>
+            <span id="deck-key" class="tag">-- KEY</span>
+            <span id="deck-lufs" class="tag tag-green">-- LUFS</span>
+            <span id="deck-tp" class="tag">TP -- dB</span>
+            <span id="deck-loop-badge" class="tag">--</span>
+          </div>
+        </div>
+
+        <div class="waveform-stage">
+          <div id="waveform-wrap" class="waveform-canvas-wrap" title="Click anywhere along waveform to seek">
+            <canvas id="waveform-canvas" width="900" height="64"></canvas>
+          </div>
+          <div class="time-readout-row">
+            <span id="deck-time-cur">00:00.00 / 00:00.00</span>
+            <span id="deck-frame-cur">24fps f: 0 / 0</span>
+          </div>
+        </div>
+
+        <div class="deck-controls">
+          <button id="btn-play" class="btn btn-primary" type="button" title="Space: Play / Pause">
+            <svg id="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f0883e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+            <span id="btn-play-label">Play</span>
+          </button>
+
+          <button id="btn-loop-toggle" class="btn btn-active" type="button" title="L: Toggle gapless AudioBuffer loop">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="17 1 21 5 17 9" />
+              <path d="M3 11V9a4 4 0 0 1 4-4h14" />
+              <polyline points="7 23 3 19 7 15" />
+              <path d="M21 13v2a4 4 0 0 1-4 4H3" />
+            </svg>
+            <span id="btn-loop-label">Loop: ON</span>
+          </button>
+
+          <button id="btn-seam-test" class="btn" type="button" title="J: Jump to duration - 4.0s with Loop ON to audition seam continuity">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="1 4 1 10 7 10" />
+              <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+            </svg>
+            <span>Test Loop Seam (-4s)</span>
+          </button>
+
+          <button id="btn-duck-toggle" class="btn" type="button" title="D: Preview invideo-timeline BUS_DIALOGUE -11 dB sidechain duck">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+            </svg>
+            <span id="btn-duck-label">Duck -11 dB: OFF</span>
+          </button>
+
+          <div class="vol-wrap" title="Master Audition Gain">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+            </svg>
+            <input id="vol-slider" type="range" min="0" max="1" step="0.01" value="0.82" aria-label="Master Volume" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter & Search Bar -->
+    <section class="toolbar" aria-label="Catalog Filters">
+      <div class="tab-group" id="category-tabs">
+        <button class="tab-btn active" data-cat="all" type="button">All (11)</button>
+        <button class="tab-btn" data-cat="rom_suite" type="button">3D ROM Suite</button>
+        <button class="tab-btn" data-cat="yyh_credits" type="button">YYH Credits &amp; Teasers</button>
+        <button class="tab-btn" data-cat="chill_tokyo" type="button">Chill Tokyo</button>
+        <button class="tab-btn" data-cat="anime_hits" type="button">Anime Hits</button>
+        <button class="tab-btn" id="btn-loop-filter" type="button">Loopable Only</button>
+      </div>
+
+      <div class="search-sort-group">
+        <input id="search-input" class="input-dark" type="search" placeholder="Search slug, title, BPM, key..." aria-label="Search tracks" />
+        <select id="sort-select" class="select-dark" aria-label="Sort tracks">
+          <option value="slug">Sort: Slug</option>
+          <option value="bpm_desc">Sort: BPM (High -> Low)</option>
+          <option value="bpm_asc">Sort: BPM (Low -> High)</option>
+          <option value="lufs_desc">Sort: LUFS</option>
+          <option value="dur_desc">Sort: Duration</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Catalog Table + Inspector Split -->
+    <main class="workspace-grid">
+      <div class="table-panel">
+        <table class="catalog-table">
+          <thead>
+            <tr>
+              <th>Track</th>
+              <th>Category</th>
+              <th>BPM</th>
+              <th>Key</th>
+              <th>LUFS / TP</th>
+              <th>Duration</th>
+              <th>Loop</th>
+              <th>Target Status</th>
+              <th>Audition</th>
+            </tr>
+          </thead>
+          <tbody id="catalog-tbody"></tbody>
+        </table>
+      </div>
+
+      <aside class="inspector-panel" aria-label="Track Inspector">
+        <div class="inspector-card">
+          <h3>
+            <span>Track Telemetry</span>
+            <span id="insp-category" class="tag">--</span>
+          </h3>
+          <div class="kv-grid">
+            <div class="kv-item"><div class="kv-label">BPM / Meter</div><div class="kv-val" id="insp-bpm">--</div></div>
+            <div class="kv-item"><div class="kv-label">Musical Key</div><div class="kv-val" id="insp-key">--</div></div>
+            <div class="kv-item"><div class="kv-label">Loudness</div><div class="kv-val" id="insp-lufs">--</div></div>
+            <div class="kv-item"><div class="kv-label">24 fps Length</div><div class="kv-val" id="insp-frames">--</div></div>
+            <div class="kv-item"><div class="kv-label">Sample Rate</div><div class="kv-val" id="insp-sr">--</div></div>
+            <div class="kv-item"><div class="kv-label">SHA-256 Prefix</div><div class="kv-val" id="insp-sha">--</div></div>
+          </div>
+          <p id="insp-cue-notes" style="margin: 10px 0 0 0; font-size: 12px; color: var(--gh-text-secondary);"></p>
+        </div>
+
+        <div class="inspector-card">
+          <h3>
+            <span>Deployment &amp; Rights</span>
+            <span id="insp-sync-badge" class="tag tag-green">--</span>
+          </h3>
+          <div id="insp-rights-banner" class="rights-banner"></div>
+          <div class="kv-grid" style="margin-top: 8px; grid-template-columns: 1fr;">
+            <div class="kv-item"><div class="kv-label">YouTube / Studio Role</div><div class="kv-val" id="insp-yt-role">--</div></div>
+            <div class="kv-item"><div class="kv-label">Target Path</div><div class="kv-val" id="insp-dest-path" style="word-break: break-all;">--</div></div>
+          </div>
+        </div>
+
+        <div class="inspector-card">
+          <h3>
+            <span>invideo-timeline // 24 fps Cue Snippet</span>
+            <button id="btn-copy-invideo" class="btn btn-sm" type="button">Copy JSON</button>
+          </h3>
+          <pre id="insp-invideo-json" class="code-inset"></pre>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer-bar">
+      <span id="footer-status">Ready &bull; Hotkeys: [Space] Play/Pause, [L] Loop Toggle, [J] Jump to -4s Seam, [D] -11 dB Duck</span>
+      <span>Web Audio Gapless Buffer Engine (AudioBufferSourceNode)</span>
+    </footer>
+  </div>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>
